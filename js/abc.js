@@ -1,4 +1,5 @@
 
 'use strict';
 
-alert(Date.now());
+var p = document.getElementById("p-id");
+p.innerText = "<script>alert('hi')";
